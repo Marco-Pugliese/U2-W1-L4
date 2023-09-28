@@ -35,57 +35,72 @@ body {
   align-items: center;
   box-shadow: 10px 10px 20px -15px black;
 }
-
-.card-1 {
+.c1 {
   background-color: aquamarine;
+  transform: rotate(18deg);
+}
+.card-1 {
   animation-name: animate1;
   animation-duration: 1s;
-  animation-fill-mode: forwards;
+}
+.c2 {
+  background-color: lightcoral;
+  transform: rotate(10deg);
 }
 .card-2 {
-  background-color: lightcoral;
   animation-name: animate2;
   animation-duration: 0.7s;
-  animation-fill-mode: forwards;
+}
+.c3 {
+  background-color: darkkhaki;
+  transform: rotate(-5deg);
 }
 .card-3 {
-  background-color: darkkhaki;
   animation-name: animate3;
   animation-duration: 0.9s;
   animation-delay: 0.1s;
-  animation-fill-mode: forwards;
+}
+
+.c4 {
+  background-color: lightblue;
+  transform: rotate(5deg);
 }
 .card-4 {
-  background-color: lightblue;
   animation-name: animate4;
   animation-duration: 1.4s;
   animation-delay: 0.1s;
-  animation-fill-mode: forwards;
+}
+.c5 {
+  background-color: rgb(238, 220, 220);
+  transform: rotate(-10deg);
 }
 .card-5 {
-  background-color: rgb(238, 220, 220);
   animation-name: animate5;
   animation-duration: 1s;
-  animation-fill-mode: forwards;
+}
+.c6 {
+  background-color: greenyellow;
+  transform: rotate(-6deg);
 }
 .card-6 {
-  background-color: greenyellow;
   animation-name: animate6;
   animation-duration: 1.6s;
-  animation-fill-mode: forwards;
 }
-
-.card-7 {
+.c7 {
+  transform: rotate(11deg);
   background-color: rgb(195, 112, 39);
+}
+.card-7 {
   animation-name: animate7;
   animation-duration: 2s;
-  animation-fill-mode: forwards;
+}
+.c8 {
+  background-color: rgb(187, 1, 187);
+  transform: rotate(4deg);
 }
 .card-8 {
-  background-color: rgb(187, 1, 187);
   animation-name: animate8;
   animation-duration: 1.2s;
-  animation-fill-mode: forwards;
 }
 @keyframes animate1 {
   0% {
@@ -164,6 +179,6 @@ body {
 #blackboard article:hover {
   cursor: pointer;
   z-index: 1;
-  transform: scale(1.2);
+  transform: scale(1.35);
   box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.696);
 }
