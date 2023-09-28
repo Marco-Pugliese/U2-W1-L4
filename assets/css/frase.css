@@ -37,12 +37,12 @@ body {
   position: absolute;
   top: 0px;
   animation-name: scroll1;
-  animation-duration: 15s;
+  animation-duration: 9s;
   animation-iteration-count: infinite;
 }
 .parole i:nth-of-type(2) {
   animation-name: scroll2;
-  animation-duration: 15s;
+  animation-duration: 9s;
   color: white;
   animation-iteration-count: infinite;
   position: absolute;
@@ -50,7 +50,7 @@ body {
 }
 .parole i:nth-of-type(3) {
   animation-name: scroll3;
-  animation-duration: 15s;
+  animation-duration: 9s;
   color: white;
   animation-iteration-count: infinite;
   position: absolute;
