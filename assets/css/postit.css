@@ -1,5 +1,6 @@
 body {
   background-color: lightcyan;
+  font-family: sans-serif;
 }
 .container {
   width: 100%;
@@ -13,7 +14,7 @@ body {
   height: 80vh;
 }
 #blackboard {
-  width: 40%;
+  width: 50%;
   background-color: rgba(48, 48, 48, 0.92);
   height: 60vh;
   border-top: 20px solid darkgoldenrod;
@@ -24,8 +25,9 @@ body {
   align-items: center;
 }
 #blackboard > article {
+  font-size: 0.9em;
   transition: all 0.9s ease;
-  width: 20%;
+  width: 21%;
   margin: 0px 2%;
   height: 100px;
   text-align: center;
